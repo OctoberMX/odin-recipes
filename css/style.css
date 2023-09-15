@@ -1,16 +1,27 @@
 * {
     background-color: #e47c05;
     color: #f0e6ae;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     border: 10px solid #f0e6ae;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #f5e692;
+}
+
+h3 {
+    color: #f5e692;
 }
 
 .main-recipes {
     list-style-type: none;
     font-size: 18px;
     font-weight: 800;
+    text-align: center;
 }
