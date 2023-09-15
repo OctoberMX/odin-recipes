@@ -1,0 +1,16 @@
+* {
+    background-color: #e47c05;
+    color: #f0e6ae;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 10px solid #f0e6ae;
+}
+
+.main-recipes {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 800;
+}
