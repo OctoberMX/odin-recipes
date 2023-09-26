@@ -4,6 +4,7 @@
 
 body {
     background-color: #e47c05;
+    background-image: url(../images/orangetile-bg.png);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,18 +13,20 @@ a {
   }
 
 img {
-    border: 10px solid #f0e6ae;
-    margin: auto;
+    border: 3px solid #f0e6ae;
+    margin: 30px auto;
     display: block;
 }
 
 h1 {
     text-align: center;
     color: #f5e692;
+    font-weight: 900;
 }
 
 h3 {
     color: #f5e692;
+    margin: 0;
 }
 
 .btn-group {
@@ -32,10 +35,10 @@ h3 {
 
 button {
     display: block;
-    text text-align: center;
+    text-align: center;
     background-color: #e95f03;
     color: #f0e6ae;
-    border: 2px solid #a34201;
+    border: 3px solid #a34201;
     padding: 10px 20px;
     cursor: pointer;
     width: 30%;
@@ -57,4 +60,20 @@ button:hover {
     font-size: 18px;
     font-weight: 800;
     text-align: center;
+}
+
+.ingredients {
+    display: inline-block;
+    background-color: #8a3801;
+    border: 3px dashed #f5e692;
+    padding: 10px 30px 10px 20px;
+    margin: 10px auto;
+}
+
+.instructions {
+    display: inline-block;
+    background-color: #a34201;
+    border: 3px dashed #f5e692;
+    padding: 10px 30px 10px 20px;
+    margin: 10px auto;
 }
